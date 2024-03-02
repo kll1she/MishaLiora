@@ -1,0 +1,209 @@
+/*1770px - 1550px*/
+@media screen and (max-width: 1770px) {
+    .flower {
+        width: 500px;
+    }
+    .branch {
+        width: 350px;
+        left: 100px;
+    }
+    .flower-table {
+        width: 630px;
+        left: 20px;
+    }
+}
+/*1550px - 1400px*/
+@media screen and (max-width: 1550px) {
+    .flower {
+        width: 400px;
+        margin-top: 75px;
+    }
+    .branch {
+        width: 300px;
+        left: 100px;
+    }
+    .header-img {
+        width: 1395px;
+        top: -330px;
+    }
+    .flower-table {
+        width: 500px;
+        left: 50px;
+    }
+    .branch-table {
+        width: 350px;
+        right: 80px;
+    }
+    .posscriptum {
+        margin-left: 410px;
+    }
+}
+/*1400px - 1200px*/
+@media screen and (max-width: 1400px) {
+    .header-img {
+        width: 1180px;
+        top: -275px;
+    }
+    .flower {
+        width: 280px;
+        margin-top: 75px;
+    }
+    .branch {
+        width: 300px;
+        left: 100px;
+    }
+}
+/*1200px - 992px*/
+@media screen and (max-width: 1200px) {
+    .header-img {
+        width: 975px;
+        top: -210px;
+    }
+    .flower {
+        width: 260px;
+        margin-top: 125px;
+    }
+    .branch {
+        width: 220px;
+        left: 40px;
+    }
+    .posscriptum {
+        margin-left: 230px;
+    }
+    .flower-table {
+        width: 450px;
+        left: -60px;
+    }
+    .branch-table {
+        width: 265px;
+        right: 37px;
+    }
+}
+
+/*992px - 768px*/
+@media screen and (max-width: 992px) {
+    .header-img {
+        width: 763px;
+        top: -162px;
+    }
+    .flower {
+        width: 215px;
+        margin-top: 178px;
+    }
+    .branch {
+        width: 210px;
+        left: 0px;
+    }
+    .colors {
+        max-width: 390px;
+    }
+    .posscriptum {
+        margin-left: 120px;
+    }
+}
+
+/*768px - 576px*/
+@media screen and (max-width: 768px) {
+    .branch-table {
+        display: none;
+    }
+    .flower-table {
+        width: 481px;
+        left: -237px;
+    }
+    .colors {
+        max-width: 260px;
+    }
+    .posscriptum {
+        margin-left: 25px;
+    }
+    .text {
+        font-size: 25px;
+    }
+    .heading {
+        font-size: 60px;
+    }
+    .header-img {
+        width: 570px;
+        top: -75px;
+    }
+    .branch {
+        width: 194px;
+        left: -50px;
+    }
+    .flower {
+        display: none;
+    }
+}
+
+/*576px - 0px*/
+@media screen and (max-width: 576px) {
+    .header-img {
+        display: none;
+    }
+    .header-img-mobile {
+        background-image: url('../img/flowers-mobile.png');
+        background-position: center;
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        
+    }
+    .flower-table {
+        display: none;
+    }
+    .branch-table {
+        display: none;
+    }
+    .flower {
+        display: none;
+    }
+    .branch {
+        display: none;
+    }
+    .colors {
+        margin-top: 15px;
+    }
+    .text {
+        max-width: 100%;
+        font-size: 23px;
+    }
+    .timing-part {
+        flex-direction: column-reverse;
+        align-items: center;
+        .type {
+            margin-bottom: 10px;
+        }
+    }
+    .names {
+        font-size: 20vw;
+    }
+    .names-block {
+        margin-top: 46%;
+        .and {
+            margin-top: -10%;
+        }
+        .liora {
+            margin-top: -10%;
+            margin-left: -10%;
+        }
+    }
+    .clock {
+        font-size: 40px;
+        margin-bottom: 0;
+        :not(:last-child) {
+            margin-right: 15px;
+        }
+        .clock-item {
+            &::after {
+                font-size: 20px;
+            }
+        }
+    }
+    .date {
+        font-size: 40px;
+    }
+    .heading {
+        font-size: 50px;
+    }
+}

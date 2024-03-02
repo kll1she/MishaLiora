@@ -1,0 +1,50 @@
+.header-img {
+    position: absolute;
+    width: 1523px;
+    height: auto;
+    top: -370px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+.names-block {
+    font-family: 'PrincessDiana';
+    font-size: 110px;
+    text-align: center;
+    margin-top: 175px;
+    .names {
+        color: #223826;
+    }
+    .and {
+        margin-top: -60px;
+    }
+    .liora {
+        margin-top: -60px;
+        margin-left: -48px;
+    }
+}
+.date {
+    font-family: 'Bonche';
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+.clock {
+    font-family: 'Bonche';
+    font-size: 50px;
+    text-align: center;
+    margin: 30px 0;
+    justify-content: center;
+    :not(:last-child) {
+        margin-right: 30px;
+    }
+    .clock-item {
+        &::after {
+            content: attr(data-title);
+            font-size: 30px;
+            transform: translateY(1%);
+        }
+    }
+}
