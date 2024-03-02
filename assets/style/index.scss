@@ -57,7 +57,9 @@
 }
 
 $mainColor: #223826;
-
+p, h1, h2, h3, .clock {
+    color: #223826;
+}
 /*576px - 0px*/
 @media screen and (max-width: 576px) {
     .container {

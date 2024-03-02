@@ -386,7 +386,7 @@ h1, h2, h3, h4, h5, h6 {
     background-position: center;
     position: absolute;
     width: 100%;
-    height: 50%;
+    height: 30%;
   }
   .flower-table {
     display: none;
@@ -473,6 +473,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .mt20 {
   margin-top: 20px;
+}
+
+p, h1, h2, h3, .clock {
+  color: #223826;
 }
 
 /*576px - 0px*/
