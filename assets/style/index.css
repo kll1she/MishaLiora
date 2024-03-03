@@ -196,6 +196,14 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 560px;
 }
 
+.form {
+  width: 100%;
+}
+
+.Oh1Vtf {
+  font-size: 10px;
+}
+
 .white-bcgr {
   position: relative;
   background-color: rgba(255, 255, 255, 0.8);
